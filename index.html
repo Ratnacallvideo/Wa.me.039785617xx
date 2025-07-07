@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
@@ -8,64 +8,75 @@
   <!-- Thumbnail saat dibagikan -->
   <meta property="og:title" content="Yuniii Call Video Whatsapp 💗💗" />
   <meta property="og:image" content="https://i.imgur.com/gDYJYRt.jpeg" />
-  <meta property="og:image:type" content="https://i.imgur.com/gDYJYRt.jpeg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
+  <meta property="og:description" content="Klik tombol CALL untuk mulai video call sekarang 😘" />
+  <meta name="theme-color" content="#25D366" />
 
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: sans-serif;
     }
 
     body {
-      background-color: #111;
+      font-family: sans-serif;
+      background-color: #e5ddd5;
+      background-image: url('https://i.imgur.com/d5uzPoY.jpeg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
       display: flex;
-      justify-content: center;
       align-items: center;
-      min-height: 100vh;
+      justify-content: center;
     }
 
     .container {
-      width: 100%;
-      max-width: 400px;
-      position: relative;
+      background: rgba(255, 255, 255, 0.95);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+      text-align: center;
+      max-width: 350px;
+      width: 90%;
     }
 
-    .container img {
-      width: 100%;
-      display: block;
-      border-radius: 12px;
+    .message {
+      font-size: 18px;
+      margin-bottom: 20px;
+      color: #075E54;
     }
 
-    .open-button {
-      position: absolute;
-      bottom: 20px;
-      left: 50%;
-      transform: translateX(-50%);
+    .call-button {
       background-color: #25D366;
       color: white;
-      border: none;
-      padding: 14px 28px;
+      padding: 15px 40px;
       font-size: 18px;
-      font-weight: bold;
-      border-radius: 30px;
+      border: none;
+      border-radius: 50px;
       cursor: pointer;
+      animation: vibrate 0.6s infinite;
+      transition: background-color 0.3s ease;
       text-decoration: none;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+      display: inline-block;
     }
 
-    .open-button:hover {
-      background-color: #1ebc5e;
+    @keyframes vibrate {
+      0% { transform: translateX(0); }
+      25% { transform: translateX(-3px); }
+      50% { transform: translateX(3px); }
+      75% { transform: translateX(-3px); }
+      100% { transform: translateX(0); }
+    }
+
+    .call-button:hover {
+      background-color: #128C7E;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <img src="https://i.imgur.com/d5uzPoY.jpeg" alt="Landing Page WhatsApp">
-    <a class="open-button" href="https://www.profitableratecpm.com/vgx77gqskg?key=6e980c246cebf6a0c0055c87de205995">OPEN</a>
+    <div class="message">Dear call me via video 📞📞</div>
+    <a href="https://www.profitableratecpm.com/vgx77gqskg?key=6e980c246cebf6a0c0055c87de205995" class="call-button">CALL 💗</a>
   </div>
 </body>
 </html>
